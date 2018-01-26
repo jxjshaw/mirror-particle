@@ -26,3 +26,196 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+/* @import "~bootstrap/scss/bootstrap"; */
+
+@font-face {
+    font-family: OCRA;
+    src: url(/assets/OCRA.ttf);
+}
+
+@font-face {
+    font-family: fira sans;
+    src: url(/assets/FiraSans-Heavy.ttf);
+}
+
+// #Global
+* {
+  font-family: OCRA, courier, monospace;;
+  letter-spacing: 0.2px;
+  // border: 1px solid rgba(255,0,0,0.2);
+}
+
+html, div {
+  background-color: rgba(0,0,0,1.0);
+  // cursor: none;
+}
+
+body {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.5);
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  overflow:hidden;
+  // overflow-y:scroll;
+  // overflow-y:hidden;
+
+}
+
+li  {
+
+}
+
+h2 {
+  color: rgba(255,255,255,1.0);
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+p {
+  text-align: center;
+  font-size: 0.8vw;
+}
+
+circle {
+    r: 0;
+}
+
+path {
+  stroke-width: 0.3vh;
+}
+
+// For some reason there is weird margin on the cards.
+canvas.particles-js-canvas-el {
+  // margin-top: -175px;
+  // margin-top: -235px;
+  margin-top: -23vh;
+}
+
+.cardHeading {
+  font-size: 0.8rem;
+  letter-spacing: 0.4rem;
+  padding: 4%;
+  text-align: center;
+  border-bottom: 1px dotted;
+  margin-bottom: 1.5vh;
+}
+
+.cardContainer {
+  width: 20vw;
+  height: 40vh;
+  background-color: rgba(255,255,255,0.0);
+  border-radius: 0px;
+  border: dotted 0.5px rgba(255,255,255,0.5);
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 5vh;
+  overflow: scroll;
+  overflow: hidden;
+}
+
+.particleContainer {
+  width: 35vw;
+  height: 30vh;
+  background-color: rgba(255,255,255,0.0);
+  border-radius: 0px;
+  border: dotted 0.5px rgba(255,255,255,0.0);
+  margin-left: 0vw;
+  margin-right: 0vw;
+  margin-top: 0vh;
+  border-radius: 1vw;
+}
+
+
+.chipContainer {
+  height: 40%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  // margin-top: 1.5vh;
+}
+
+.textData {
+  // margin-top: 2vh;
+}
+
+.particleData {
+  font-family: fira sans;
+  font-weight: 900;
+  font-size: 11.5vw;
+  // line-height: 11vh;
+  line-height: 5vh;
+
+}
+
+.textUnit {
+  font-size: 0.8vw;
+  font-weight: 900;
+}
+
+// #COMPONENET SPECIFIC
+
+#clock {
+  margin-top: 10vh;
+}
+  // MAP
+    .mWrap {
+      background-size: contain;
+      -webkit-filter: invert(100%) brightness(200%);
+
+    }
+
+// #Overwrite library classes
+
+.recharts-wrapper {
+  background-color: rgba(255,255,255,0.0);
+}
+
+.recharts-legend-wrapper {
+  background-color: rgba(255,255,255,0.0);
+}
+
+.recharts-cartesian-axis-line {
+
+}
+
+.recharts-line-label {
+    font-size: 8px;
+}
+
+.recharts-surface {
+    padding: 1vh;
+}
+
+// LIST STYLING
+
+#amount {
+
+}
+
+#disabled {
+  opacity: 0.2;
+
+}
+
+#primary {
+  opacity: 0.4;
+}
+
+#headlines {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 3vh;
+    align-content: center;
+    font-size: 0.8rem;
+}
+
+
+.particleBg {
+    margin-bottom: -62%;
+    margin-bottom: -22vw;
+}
