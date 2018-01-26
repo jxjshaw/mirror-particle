@@ -32,12 +32,12 @@
 
 @font-face {
     font-family: OCRA;
-    src: url(/assets/OCRA.ttf);
+    src: url(./assets/OCRA.ttf);
 }
 
 @font-face {
     font-family: fira sans;
-    src: url(/assets/FiraSans-Heavy.ttf);
+    src: url(./assets/FiraSans-Heavy.ttf);
 }
 
 // #Global
@@ -144,7 +144,7 @@ canvas.particles-js-canvas-el {
 }
 
 .particleData {
-  font-family: fira sans;
+  font-family: fira sans, sans-serif;
   font-weight: 900;
   font-size: 11.5vw;
   // line-height: 11vh;
